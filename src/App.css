@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.head-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question-list {
+  border: 1px solid gray;
+  margin: 10px;
+  text-align: start;
+}
+.radio-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.question-card {
+  padding: 15px 20px;
+}
+.button1 {
+  color: brown;
+  border: 2px solid brown;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.button2 {
+  color: blue;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 2px solid blue;
+}
+.button3 {
+  color: grey;
+  border: 2px solid grey;
+  padding: 10px 12px;
+}
+.question {
+  border-bottom: 1px solid grey;
+  padding: 12px 15px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.radio-option {
+  margin-bottom: 10px;
+}
+.selected-answer {
+  color: rgb(25, 135, 84);
+}
+.incorect-answer {
+  color: rgb(220, 53, 69);
+}
+.not-attempt {
+  color: rgb(13, 202, 240);
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.theme-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
